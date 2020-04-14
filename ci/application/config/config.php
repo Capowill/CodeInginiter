@@ -21,9 +21,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | If you need to allow multiple domains, remember that this file is still
 | a PHP script and you can easily do that on your own.
-|
+| 'http://localhost/ SANS *S* a http://
 */
-$config['base_url'] = 'https://localhost/codeigniter/ci/';
+$config['base_url'] = 'http://localhost/codeigniter/ci/';
 
 /*
 |--------------------------------------------------------------------------
@@ -73,10 +73,9 @@ $config['url_suffix'] = '';
 |
 | This determines which set of language files should be used. Make sure
 | there is an available translation if you intend to use something other
-| than english. / fonctionne avec french aussi ! bande de proute inutile CHEH
-|
+| than english. 
 */
-$config['language']	= 'french';
+$config['language']	= 'english';
 
 /*
 |--------------------------------------------------------------------------

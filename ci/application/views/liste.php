@@ -9,6 +9,8 @@
 	</head>
 
 	<body>
+	<h1>Codeigniter PHP Exo </h1>
+
 		<h1>Liste des produits (exercice 1)</h1>
 
 		<p>Bonjour <?php echo $prenom, " ", $nom; ?> !</p>
@@ -30,7 +32,7 @@
 		<h1>Liste des produits (Base de donnée)</h1>
 
 	<?php 
-		foreach ($liste_produits as $row) {
+		foreach ($liste as $row) {
 			echo"<p>".$row->pro_id."</p>";
 			echo"<p>".$row->pro_ref."</p>";
 			echo"<p>".$row->pro_libelle."</p>";
@@ -39,12 +41,12 @@
 			echo "<hr>";
 			}
 	?>
+	<!-- --------- Formulaire CodeIgniter --------- -->
+	<h1>Liste des produits (Formulaire)</h1>
 
-
-
-
-
-
+		<a href="<?= site_url("produits/ajouter"); ?>">
+			Formulaire
+		</a>
 
 	</body>
 
